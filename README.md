@@ -28,28 +28,28 @@ Ce projet est une application Streamlit qui permet aux utilisateurs de s'inscrir
 
 2. Créez un environnement virtuel et activez-le :
 
-```bash
+    ```bash
     python -m venv .venv
     source .venv/bin/activate  # Sur Windows utilisez .venv\Scripts\activate
-```
+    ```
 
 3. Installez les dépendances :
 
-```python
+    ```python
    pip install -r requirements.txt
-```
+    ```
 
 4. Exécutez le script d'initialisation de la base de données pour créer la base de données et la table :
 
-```python
+    ```python
    python init_db.py
-```
+    ```
 
 5. Démarrez l'application Streamlit :
 
-```python
+    ```python
     streamlit run app.py
-```
+    ```
 
 ## Utilisation
 
