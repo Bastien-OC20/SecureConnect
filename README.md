@@ -23,8 +23,8 @@ Ce projet est une application Streamlit qui permet aux utilisateurs de s'inscrir
 1. Clonez ce dépôt :
 
    ```bash
-   git clone <URL_DU_REPO>
-   cd <NOM_DU_REPO>
+   git clone ([https://github.com/Bastien-OC20/SecureConnect.git](https://github.com/Bastien-OC20/SecureConnect.git))
+   cd SecureConnect
 
 2. Créez un environnement virtuel et activez-le :
 
