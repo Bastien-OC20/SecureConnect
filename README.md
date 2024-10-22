@@ -23,34 +23,33 @@ Ce projet est une application Streamlit qui permet aux utilisateurs de s'inscrir
 1. Clonez ce dépôt :
 
    ```bash
-   git clone ([https://github.com/Bastien-OC20/SecureConnect.git](https://github.com/Bastien-OC20/SecureConnect.git))
+   git clone https://github.com/Bastien-OC20/SecureConnect.git
    cd SecureConnect
 
 2. Créez un environnement virtuel et activez-le :
 
-``
+```bash
     python -m venv .venv
     source .venv/bin/activate  # Sur Windows utilisez .venv\Scripts\activate
-``
+```
 
 3. Installez les dépendances :
 
-``
+```python
    pip install -r requirements.txt
-``
+```
 
 4. Exécutez le script d'initialisation de la base de données pour créer la base de données et la table :
 
-``
+```python
    python init_db.py
-
-``
+```
 
 5. Démarrez l'application Streamlit :
 
-``
+```python
     streamlit run app.py
-``
+```
 
 ## Utilisation
 
@@ -62,10 +61,11 @@ Ce projet est une application Streamlit qui permet aux utilisateurs de s'inscrir
 
 ```.
 ├── app.py               # Application principale Streamlit
-├── init_db.py           # Script pour initialiser la base de données
 ├── requirements.txt      # Fichier des dépendances
 ├── logs/                # Dossier pour les fichiers de log
 │   └── app.log          # Journalisation des événements
+│   Database/            # Dossier pour la configuration de la base de données
+├── database.py          # Script pour initialiser la base de données
 └── data/                # Dossier pour la base de données
     └── securusers.db    # Base de données SQLite
 ```
