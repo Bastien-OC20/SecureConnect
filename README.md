@@ -67,7 +67,8 @@ Ce projet est une application Streamlit qui permet aux utilisateurs de s'inscrir
 ├── logs/                # Dossier pour les fichiers de log
 │   └── app.log          # Journalisation des événements
 └── data/                # Dossier pour la base de données
-    └── securusers.db    # Base de données SQLite```
+    └── securusers.db    # Base de données SQLite
+```
 
 ## Aide et Support
 
